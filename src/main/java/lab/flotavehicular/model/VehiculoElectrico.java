@@ -20,6 +20,7 @@ public class VehiculoElectrico extends Vehiculo {
     public double getPorcentajeBateria() {
         return porcentajeBateria;
     }
+    public int getCiclosDeCarga(){return ciclosDeCarga}
 
     @Override
     // Sobrescritura: cómo inicia ruta un vehículo eléctrico
